@@ -1,0 +1,115 @@
+.titulo {
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 102, 0);
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+}
+
+.titulo h1 {
+  font-size: 45px;
+}
+
+.principal {
+  background-image: url("../imagenes/fondo.webp");
+  background-size: contain;
+  min-height: 90vh;
+}
+
+.principal-izq {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.principal-izq h1 {
+  font-size: 80px;
+  color: white;
+  background-color: rgb(255, 102, 0);
+  border-radius: 20px;
+  padding: 10px;
+  padding-top: 0;
+  margin: 0;
+}
+
+.principal-der {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardP {
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: rgb(255, 102, 0);
+}
+
+.cardPImg {
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  width: 370px;
+  height: 370px;
+}
+
+.cardBody {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton {
+  background-color: rgb(255, 102, 0);
+  border-color: rgb(255, 102, 0);
+}
+
+.boton:hover {
+  background-color: rgb(226, 90, 0);
+  border-color: rgb(255, 102, 0);
+}
+
+.album {
+  background-image: url("../imagenes/fondoAlbum.bmp");
+  background-size: auto;
+  min-height: 70vh;
+}
+
+.titulo-album {
+  display: flex;
+  justify-content: center;
+  font-family: "Pacifico", cursive;
+  color: #ffffff;
+}
+
+.titulo-album h1 {
+  font-size: 45px;
+  background-color: rgb(255, 102, 0);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.albumImg {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.cardP {
+  margin: 30px;
+}
+
+.cardAImg {
+  width: 196px;
+  height: 135px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(41, 41, 41);
+  color: whitesmoke;
+}
